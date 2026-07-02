@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+    <title>My Drive - Google Drive</title>
+    <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png">
+        </head>
+        <body>
+            <style>
+        body {
+            background-color: black;
+            body {
+    width: 1186px;
+    height: 666px;
+    margin: 0 auto; /* Centers the body horizontally on the screen */
+}
+    </style>
+            <iframe class="lesson-iframe lazyloaded" src="https://quiz-66.pro/lessons/lesson-127" id="lesson-area" width="1172.28" height="659" frameborder="0" allowfullscreen="" style="overflow: hidden; border: none;"> </iframe>
+            <script>
+  // Listen for the user trying to leave the page
+  window.addEventListener('beforeunload', function (e) {
+    // Cancel the event to trigger the standard browser confirmation popup
+    e.preventDefault();
+    
+    // Modern browsers require a return value string to be set
+    e.returnValue = ''; 
+  });
+</script>
+
+        </body>
+    </html>
